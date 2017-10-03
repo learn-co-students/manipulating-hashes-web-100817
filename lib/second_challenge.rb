@@ -1,13 +1,13 @@
+#groceries = {
+#  dairy:
+#}
+
 def second_challenge
   groceries = {
-   dairy: ["milk", "yogurt", "cheese"],
-   vegetable: ["carrots", "broccoli", "cucumbers"],
+  :dairy => ["milk", "yogurt", "cheese"],
+  :vegetables => ["carrots", "broccoli", "cucumbers"],
    meat: ["chicken", "steak", "salmon"],
-   grains: ["rice", "pasta"]
-  }
+   grains: ["rice", "pasta"]}
 
-  #code your solution here!
-
-  
-
+  groceries.values.flatten
 end
